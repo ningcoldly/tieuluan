@@ -6,7 +6,6 @@ typedef struct Sach {
    char TenSach[100];
    char TacGia[50];
    int NamXuatBan;
-
 } Sach;
 void Themsach(Sach ds[], int n) {
     for (int i = 0; i < n; i++) {
@@ -35,7 +34,6 @@ void thongtinSach(Sach ds[], int n) {
         printf("-------------------------\n");
     }
 }
-
 void timkiemsach(Sach ds[], int n, int maSachCanTim, char tenSachCanTim[], char tacGiaCanTim[], int namXuatBanCanTim) {
     int found = 0; // bien kiem tra co tim thay sach khong
     for (int i = 0; i < n; i++) {
@@ -69,7 +67,6 @@ int XoaSachbangma(Sach ds[],int n, int maSachCanXoa) {
     }
     return n; // tra ve so luong sach con lai
 }
-
 int main() {
     Sach ds[100]; // mang luu tru sach
         int n;
